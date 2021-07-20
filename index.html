@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimuladorBateria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="principal">
+        <div class="img">
+            <div class="bg-img">
+            </div>
+            <div class="key-area">
+                <div data-key = "keyq" class="key" id="q">Q</div>
+                <div>
+                    <div data-key = "keyw" class="key" id="w">W</div>
+                    <div data-key = "keya" class="key" id="a">A</div>
+                    <div data-key = "keyz" class="key" id="z">Z</div>
+                </div>
+                <div>
+                    <div data-key = "keye" class="key" id="e">E</div>
+                    <div data-key = "keys" class="key" id="s">S</div>
+                    <div data-key = "keyx" class="key" id="x">X</div>
+                </div>
+                <div>
+                    <div data-key = "keyr" class="key" id="r">R</div>
+                    <div data-key = "keyd" class="key" id="d">D</div>
+                    <div data-key = "keyc" class="key" id="c">C</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="middle">
+        <div class="composicao">
+            <input type="text" id="input" autocomplete="off" placeholder="Digite sua composição">
+            <button>Tocar</button>
+        </div>
+    </section>
+    <footer>
+        Criado por Lucas Montes <br>
+        <span>Desafio 7 Projetos em 7 Dias - B7Web</span>
+    </footer>
+    <audio src="sounds/sound_A.wav" id="s_keya"></audio>
+    <audio src="sounds/sound_C.mp3" id="s_keyc"></audio>
+    <audio src="sounds/sound_D.mp3" id="s_keyd"></audio>
+    <audio src="sounds/sound_E.mp3" id="s_keye"></audio>
+    <audio src="sounds/sound_Q.mp3" id="s_keyq"></audio>
+    <audio src="sounds/sound_R.mp3" id="s_keyr"></audio>
+    <audio src="sounds/sound_S.mp3" id="s_keys"></audio>
+    <audio src="sounds/sound_W.mp3" id="s_keyw"></audio>
+    <audio src="sounds/sound_X.mp3" id="s_keyx"></audio>
+    <audio src="sounds/sound_Z.mp3" id="s_keyz"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.principal{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.541);
+}
+.img{
+    margin-top: 30px;
+    background-image: url("images/bg-drum.png");
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    width: 1550px;
+}
+.bg-img{
+    height: 850px;
+    width: 1550px;
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+.key-area{
+    display:flex;
+
+}
+.key{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.70);
+    color: white;
+    font-size: 20px;
+    border: 2px solid #fff;
+}
+.key.active{
+    border: 2px solid #FF0;
+    color: #FF0;
+}
+#q{
+    margin-top: 400px;
+    margin-left: 150px;
+}
+#w{
+    margin-top: 15px;
+    margin-left: 175px;
+}
+#a{
+    margin-left: 150px;
+    margin-top: 200px;
+}
+#z{
+    margin-left: 285px;
+    margin-top: 230px;
+}
+#e{
+    margin-top: 35px;
+    margin-left: 150px;
+}
+#s{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#x{
+    margin-left: 150px;
+    margin-top: 275px;
+}
+#r{
+    margin-left: 450px;
+    margin-top: 35px;
+}
+#d{
+    margin-top: 150px;
+    margin-left: 85px;
+}
+#c{
+    margin-top: 285px;
+    margin-left: 300px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(51, 51, 51, 0.541);
+}
+.composicao{
+    width: 260px;
+    margin-top: 15px;
+    background-color: #909090;
+}
+.composicao #input{
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+.composicao button {
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+footer{
+    background-color:  rgba(51, 51, 51, 0.541);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    font-size: 27px;
+    font-weight: bolder;
+    color: rgb(68, 67, 67);
+}
+footer span{
+    font-size: 20px;
+}
